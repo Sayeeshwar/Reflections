@@ -1,0 +1,44 @@
+So we can use git diff to view the difference between files.
+
+Or we can use fc in command prompt for this. + indicates new
+
+additions and - indicates deletions
+
+Having the entire history of code that you might be working on,
+might help you find out where exactly you went wrong and help
+you correct yourself from your past mistakes
+
+Difference between auto commits like google docs and 
+Wikipedia is that auto commits could not make sense as they
+might not be complete at the time of commit. While this reduces
+user error, it doesnt have flexibility
+
+Manual commits have much more flexibility, as its upto us to
+commit each time a logical change is made. However, forgetting
+to commit is also on us.
+
+Git is more oriented towards code version control, where its
+important to track multiple files. However, Docs is intended to 
+allow creation of seperate files and isn't intended for version
+control.
+
+git log --stat can be used to view changes in each commit. 
+git diff id 1 id 2 can also be used for the same purpose.
+
+git clone url can be used to clone files from a remote repo,
+with all its commits and changes.
+
+git checkout helps you goto a past state of things where the 
+files were different. This helps a lot as you can see what the
+changes were between 2 versions where a bug could've been
+introduced. Also, note down the latest commit's id, if you want 
+to restore your latest state of the files.
+
+Now that you have your workspace set up, 
+what do you want to try using Git for?
+
+I didnt get my workspace completely set up as i didnt set the
+shortcut for the text editor.
+
+I'd like to use git to upload my projexts across all languages
+and topics
