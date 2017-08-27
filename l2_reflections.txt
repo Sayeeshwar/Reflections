@@ -7,3 +7,12 @@ How is the staging area different from the working directory and the repository?
 
 Staging area is an a bridge from working directory to repo. Its gives you a choice to select which files are going to be commited
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+git diff without arguements compares working directory and stagin area
+
+git diff --staged compares staging area to latest commit. It's used to check what is being committed
+
+
+
+
