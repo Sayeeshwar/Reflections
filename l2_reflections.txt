@@ -19,4 +19,16 @@ In situations where the files need to be experimented with , without affecting
 the original versions. In these cases, branches are useful, as they allow you to use
 the latest code for experimentation
 
+git log --graph --oneline branch1 branch2 helps display changes between 2 branches and their history relative to each other
+
+How do the diagrams help you visualize the branch structure?
+
+using diagrams, we can learn about the parents of each commits, and thus what changes can be reached via a branch. If a commit is unreachable
+
+it doesnt show up in git log. Things like these can be visualized using diagrams. If you checkout a past commit on a branch, and make a new commit
+
+it goes onto an unnamed branch which isnt saved unless you checkout using a new branch. So, if you go back to an existing branch without committing
+this change on a new branch, this commit will be lost unless you happen to know the commit ID.
+
+
 
