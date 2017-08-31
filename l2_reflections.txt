@@ -40,6 +40,21 @@ What is the result of merging two branches together? Why do we represent it in t
 
 git branch -d branch_name deletes a branch
 
+git log -n 2 shows latest 2 commits
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros:
+	
+	Automatic merging: saves us the trouble and interweaves commits that we can refer to later, without having to differentiate branches for each commit
+	Manual: You get the choice to make a call as to whether a commit needs to be done in a particular situation with multiple branches, without git screwing it up for you
+	
+	Cons:
+	Automatic merging: May scew up some things if you arent careful
+	Manual: You have to do everything, even the most trivial things
+
+
+
 
 
 
