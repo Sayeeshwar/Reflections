@@ -6,3 +6,8 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	by pulling manullly, we can decide when to merge remote changes rather than allowing git to merge something without our knoweledge. 
 	This might cause the code to malfunction as it might not be entirely functional or compilable.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	forks give credit to original creator of the repo and only copy it onto your github repo and not your pc. clones are to make a copy of the 
+	repo onto your computer. branches are to diverge within the copy of code on your computer
