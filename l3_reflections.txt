@@ -11,3 +11,7 @@ Describe the differences between forks, clones, and branches. When would you use
 
 	forks give credit to original creator of the repo and only copy it onto your github repo and not your pc. clones are to make a copy of the 
 	repo onto your computer. branches are to diverge within the copy of code on your computer
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	by doing so, we can look at the code offline and see which changes to merge into master branch or whether to merge it at all.
